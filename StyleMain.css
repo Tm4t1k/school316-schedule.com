@@ -1,0 +1,22 @@
+body{	
+	font-weight: bold;
+	text-align: center;
+	font-family: Helvetica;
+
+	background-image: url(background.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size:  cover;
+}
+
+.center {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+a{
+	font-size: 96px;
+	color: black;
+}
+
