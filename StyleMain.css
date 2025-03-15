@@ -1,0 +1,33 @@
+body{	
+	font-weight: bold;
+	text-align: center;
+	font-family: Helvetica;
+
+	background-image: url(background.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size:  cover;	
+}
+
+.center {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+a{
+	color: black;
+	font-size: clamp(3rem, 0.857rem + 5.714vw, 6rem);
+}
+
+table {
+  width: 80%;
+  height: 500px;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+td, th {
+  overflow-wrap: break-word;
+  font-size: clamp(0.65rem, -0.587rem + 2.899vw, 1.5rem);
+}
